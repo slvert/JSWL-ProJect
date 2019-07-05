@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 宋体;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+/*头部div*/
+.t_left{
+    width: 1%;
+    height: 30px;
+    background-image: url("../image/left-top-right.gif");
+    float: left;
+}
+.t_center{
+    width: 98%;
+    height: 30px;
+    background-image: url("../image/content-bg.gif");
+    background-repeat: repeat-x;
+    float: left;
+}
+.t_center .title{
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+    background-image: url(../image/top_bt.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: 15px;
+    padding-top: 5px;
+}
+.t_right{
+    width: 1%;
+    height: 30px;
+    background-image: url("../image/nav-right-bg.gif");
+    float: left;
+}
+/*中间div*/
+.m_left {
+    width: 1%;
+    height: 600px;
+    background-image: url("../image/mail_leftbg.gif");
+    background-repeat: repeat-y;
+    float: left;
+}
+.m_center{
+    width: 98%;
+    height: 600px;
+    background-color:#f3f2ff;
+    float: left;
+}
+.m_right{
+    width: 1%;
+    height: 600px;
+    background-image: url("../image/mail_rightbg.gif");
+    background-repeat: repeat-y;
+    float: left;
+}
+.computer{
+    width:150px;
+    height: 100px;
+    background: url(../image/computer.png) no-repeat 0px -70px;
+    float: left;
+    margin: 10px 30px;
+}
+.m_center p{
+    float: left;
+    font-size: 13px;
+    line-height: 30px;
+}
+.m_ul li{
+    float: left;
+    list-style: none;
+    font-weight:  bolder;
+    margin-right: 320px;
+    color:#000078;
+}
+

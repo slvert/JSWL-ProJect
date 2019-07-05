@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  type="text/css" rel="stylesheet" href="css/left.css"></link>
+    <script type="text/javascript" src="js/prototype.lite.js"></script>
+    <script type="text/javascript" src="js/moo.fx.js"></script>
+    <script type="text/javascript" src="js/moo.fx.pack.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1 class="type"><a href="javascript:void(0)">用户管理</a></h1>
+        <div class="content">
+            <div>
+                <img src="image/menu_topline.gif">
+            </div>
+            <ul class="MM">
+                <li><a href="userquery.do" target="mainFrame">用户列表</a></li>
+            </ul>
+        </div>
+        <h1 class="type"><a href="javascript:void(0)">文章管理</a></h1>
+        <div class="content">
+            <div>
+                <img src="image/menu_topline.gif">
+            </div>
+            <ul class="MM">
+                <li><a href="articlequery.do" target="mainFrame">文章列表</a></li>
+            </ul>
+        </div>
+        <h1 class="type"><a href="javascript:void(0)">快报管理</a></h1>
+        <div class="content">
+            <div>
+                <img src="image/menu_topline.gif">
+            </div>
+            <ul class="MM">
+                <li><a href="fastreportquery.do" target="mainFrame">快报列表</a></li>
+            </ul>
+        </div>
+        <h1 class="type"><a href="javascript:void(0)">栏目管理</a></h1>
+        <div class="content">
+            <div>
+                <img src="image/menu_topline.gif">
+            </div>
+            <ul class="MM">
+                <li><a href="columnqueryall.do" target="mainFrame">栏目列表</a></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var contents = document.getElementsByClassName('content');
+        var toggles = document.getElementsByClassName('type');
+
+        var myAccordion = new fx.Accordion(
+            toggles, contents, {opacity: true, duration: 400}
+        );
+        myAccordion.showThisHideOpen(contents[0]);
+    </script>
+</body>
+</html>

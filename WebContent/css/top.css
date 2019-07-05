@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    width: 1280px;
+    height: 65px;
+    background-image:url("../image/top-right.gif");
+    background-repeat: repeat-x;
+}
+.left{
+    width: 60%;
+    height: 65px;
+    float:left;
+}
+.right{
+    width: 40%;
+    float: left;
+}
+.right li{
+    float: left;
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+}
